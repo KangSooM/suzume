@@ -1,0 +1,148 @@
+body{
+    /* background-image: url(/SUZUME_MOMENTUM/img/bg.png);
+    background: no-repeat;
+    background-position: center;
+    background-size: cover; */  /*왜 안 되지*/
+    /* 
+    align-items: center;
+    overflow-x: hidden; */
+    background: url(/SUZUME_MOMENTUM/img/bg.png) center/cover no-repeat;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Pretendard', sans-serif;
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: red;
+    display: block;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.background {
+    background-color: rgba(256, 256, 256, 0.8);
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.title {
+    font-weight: 600;
+    align-items: start;
+    font-size: 18px;
+    height: 100%;
+}
+
+.title1 {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    align-items: start;
+}
+
+.title2 {
+    display: flex;
+    width: 100%;
+    height: 230px;
+    box-sizing: border-box;
+}
+
+.todo {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.wrap-content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    justify-content: center;
+    padding: 20px 30px 25px 30px;
+}
+
+.center-allign {
+    text-align: center;
+    padding:50px;
+    font-size: 18px;
+}
+
+.boxcolor {
+    background-color:rgba(256, 256, 256, 0.8);
+    border-radius: 12px;
+}
+
+.todo-input {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 0px;
+    border-radius: 0;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid rgb(148, 150, 156);
+}
+
+.list {
+    list-style: none;
+}
+
+.rand-img {
+    width: 100%;
+    height: 100%;
+    max-height: 230px;
+    box-sizing: border-box;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit : cover;
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+}
+
+.username-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    padding: 10px 10px;
+}

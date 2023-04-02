@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Suzume</title>
+</head>
+<body>
+    <div class="hidden" id="login">
+        <div class="center background">
+            <div>
+                <h1 style="text-align: center;">🗝️</h1>
+                <span style="font-size: 30px; font-weight: 700; ">Lock the Door</span>
+            </div>
+            <div>
+                <form id="login-form" class="login-form" >
+                    <input maxlength="15" type="text" placeholder="username" class="username-input" style="margin-top: 30px;"/>
+                </form>
+                <span class="hidden">
+                    Please write your username
+                </span>
+                <form id="login-form-button">
+                    <input type="submit" value="Log In" class="username-input" style="background-color: rgb(184, 210, 231); margin: 10px 0px 30px 0px;"/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="hidden" id="contents">
+        <div class="title1 boxcolor">
+            <div id="date">
+                <span id="clock" style="font-weight: 500;">0000년 0월 0일 월요일 00시 00분</span>
+            </div>
+            <div id="welcome" style="cursor: pointer;">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="title2">
+            <div class="box boxcolor" style="margin-right: 10px;">
+                <div>
+                    <span style="width: 100%;" class="title">📜 QUOTE</span>
+                    <div id="quotes" class="center-allign"> 
+                        <span></span>
+                    </br>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box boxcolor" id="rand-img" style="margin-right: 10px; padding: 0px; overflow: hidden; height: 230px;">
+                
+            </div>
+
+            <div class="box boxcolor">
+                <div>
+                    <span class="title">🌤️ LOCATION & WEATHER</span>
+                    <div id="geolocation" class="center-allign">
+                        <span></span>
+                    </br>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="todo-list" class=" box boxcolor todo">
+            <div style="overflow: auto;">
+                <span class="title">✅ TO-DO LIST</span>
+                <form id="todo-form" >
+                    <input type="text" class="todo-input underline" placeholder="Write a todo and Press Enter" required/>
+                </form>
+                <ul id="todo-list" class="list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/hello.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>js/weather.js"></script>
+    <script src="js/background.js"></script>
+</body>
+</html>

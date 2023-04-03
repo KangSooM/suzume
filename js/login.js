@@ -2,7 +2,7 @@ const LoginDiv = document.querySelector("#login");
 const LoginForm = document.querySelector("#login-form");
 const LoginInput = document.querySelector("#login-form input");
 const LoginFormBtn = document.querySelector("#login-form-button");
-const errorMessage = LoginDiv.querySelector("span");
+const errorMessage = LoginDiv.querySelector("#error-span");
 const Contents = document.querySelector("#contents");
 
 const HIDDEN_CLASSNAME = "hidden";
